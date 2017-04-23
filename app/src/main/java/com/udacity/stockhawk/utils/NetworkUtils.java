@@ -4,7 +4,10 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-public class NetworkUtils {
+public final class NetworkUtils {
+
+    private NetworkUtils() {
+    }
 
     public static boolean isNotConnected(Context c) {
         return !isConnected(c);

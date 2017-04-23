@@ -15,6 +15,7 @@
         android:layout_marginEnd="4dp"
         android:layout_marginTop="16dp"
         android:hint="@string/dialog_hint"
+        android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:inputType="textCapCharacters" />
 
 </LinearLayout>
