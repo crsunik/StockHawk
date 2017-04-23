@@ -3,23 +3,23 @@
 
     <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
 
-    <string name="pref_stocks_key">stocks</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
 
 
-    <string name="pref_display_mode_key">displayMode</string>
-    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
 
-    <string name="pref_display_mode_absolute_key">absolute</string>
-    <string name="pref_display_mode_percentage_key">percentage</string>
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
 
     <string name="default_stocks_yahoo">YHOO</string>
     <string name="default_stocks_apple">AAPL</string>
     <string name="default_stocks_microsoft">MSFT</string>
     <string name="default_stocks_facebook">FB</string>
 
+    <string name="transition_stock_quote" translatable="false">TN_StockQuote</string>
 
-    <string name="action_change_units">@string/pref_display_mode_key</string>
-
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
 
     <string name="dialog_title">Add Stock</string>
     <string name="dialog_hint">Symbol (e.g. GOOG)</string>
@@ -31,5 +31,19 @@
 
     <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="add_stock_btn_description">Click to add new stock to the list</string>
+    <string name="error_duplicated_stock">Stock %s already added to the list</string>
+    <string name="toast_stock_added">Stock %s was added successfully</string>
+    <string name="toast_stock_not_exist">Stock %s doesn\'t exist</string>
+    <string name="toast_stock_data_not_exist">Data for stock %s wasn\'t found</string>
+    <string name="toast_stock_no_internet_connection">Stock %s couldn\'t be added - no internet connection</string>
+    <string name="default_loading_text">Loading…</string>
+    <string name="widget_name">Stock Quote Widget</string>
+    <string name="label_stock_prices">Stock prices</string>
+    <string name="util_date_format">dd-mm-yyyy</string>
+    <string name="stock_chart_description">Historical stock prices of %1$s</string>
+    <string name="desc_price">Current price for %1$s is %2$s</string>
+    <string name="widget_stock_quotes_refresh">Refresh</string>
+    <string name="widget_stock_quotes_empty">Nothing to display</string>
 
 </resources>

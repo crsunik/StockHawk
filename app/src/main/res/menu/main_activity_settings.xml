@@ -3,10 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/action_add_stock"
+        android:icon="@drawable/fab_plus"
+        android:orderInCategory="98"
+        android:title="@string/action_change_units"
+        app:showAsAction="always" />
+
+    <item
         android:id="@+id/action_change_units"
         android:icon="@drawable/ic_dollar"
         android:orderInCategory="99"
         android:title="@string/action_change_units"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 </menu>
